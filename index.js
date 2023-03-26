@@ -17,6 +17,9 @@ app.use(express.static("public"))
 
 app.use('/', mainrouter)
 
+app.get('/', (req, res) => 
+res.sendFile('./public/index.html')
+)
 app.listen(PORT, () => {
     console.log('Connected...')
     console.log("Server running on http://localhost:" + PORT)
