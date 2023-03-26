@@ -20,7 +20,8 @@ function getRandom(nans) {
    return he
 }
  router.get('/', (req, res) => {
- res.send(`<!DOCTYPE html>
+ res.send(`
+ <!DOCTYPE html>
 <html><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -97,7 +98,7 @@ body{
   }
 </style>
 <body class="nav-wrapper">
-    <img id="userPhoto" src="./poto.png" alt="User Photo">
+    <img id="userPhoto" src="./public/poto.png" alt="User Photo">
     
     <a href="https://github.com/KilerBotz" id="userName">KilersBotz</a>
     <div id="links">
@@ -125,7 +126,8 @@ body{
     <script src="/script/jquery.min.js"></script>
     <script src="/script/index.js"></script>
 
-</body></html>`)
+</body></html>
+`)
 })
  router.all('/loli', async (req, res) => {
    try {
