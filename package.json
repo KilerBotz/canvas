@@ -23,11 +23,14 @@
     "url": "https://github.com/Caliph71/meng-api/issues"
   },
   "dependencies": {
+    "canvas": "2.9.1",
+    "canvas-hikki": "github:hardiantojek93/canvas-hikki",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1",
     "morgan": "^1.10.0",
     "ssl-express-www": "^3.0.7",
+    "knights-canvas": "github:hardiantojek93/knights-canvas",
     "canvacord": "^5.1.0"
   },
   "homepage": "https://github.com/Caliph71/meng-api#readme"
